@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Profesores - Documentación de usuario para sistema de seguimiento</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Profesores";
+        var mkdocs_page_input_path = "Profesor.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentación de usuario para sistema de seguimiento
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Introducción</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Profesores</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#indice">Índice</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#introduccion">Introducción</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#acceso">Acceso</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#iniciar-sesion">Iniciar sesión</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#registrarse">Registrarse</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#formulario-de-registro">Formulario de Registro</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#campos-obligatorios">Campos Obligatorios</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#consideraciones-importantes">Consideraciones Importantes</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#posibles-errores">Posibles Errores</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#finalizacion-del-registro">Finalización del Registro</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#panel-de-navegacion">Panel de Navegación</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#elementos-del-panel-de-navegacion">Elementos del Panel de Navegación:</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#1-selector-de-mes">1. Selector de Mes</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2-buscador-de-docencias">2. Buscador de Docencias</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#3-lista-de-docencias">3. Lista de Docencias</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#4-acciones-disponibles">4. Acciones Disponibles</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#5-contador-de-docencias">5. Contador de Docencias</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#formulario-de-seguimiento">Formulario de Seguimiento</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-informacion-general">1. Información General</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-situacion-actual-de-la-docencia">2. Situación Actual de la Docencia</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#unidades-de-trabajo-completadas">Unidades de trabajo completadas</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#unidad-de-trabajo-actual">Unidad de trabajo actual</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#evaluacion">Evaluación</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ultimo-contenido-impartido">Último contenido impartido</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-estado-de-la-programacion">3. Estado de la Programación</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#estado-actual">Estado actual</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#justificacion-del-estado-actual">Justificación del estado actual</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-cumplimiento-de-la-programacion">4. Cumplimiento de la Programación</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#cumple-la-programacion">Cumple la programación</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#si-desactivas-cumple-la-programacion">Si desactivas "Cumple la programación"</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-guardar-el-seguimiento">5. Guardar el seguimiento</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vista-de-tabla-de-seguimientos">Vista de Tabla de Seguimientos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#informacion-general-del-modulo">Información General del Módulo</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tabla-de-seguimientos">Tabla de Seguimientos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#consejos-utiles">Consejos Útiles</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#preguntas-frecuentes">Preguntas Frecuentes</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Administrador/">Administradores</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentación de usuario para sistema de seguimiento</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Profesores</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="manual-de-usuario-sistema-de-seguimiento-docente">Manual de Usuario: Sistema de Seguimiento Docente</h1>
+<h2 id="indice">Índice</h2>
+<ol>
+<li><a href="#introducción">Introducción</a></li>
+<li><a href="#acceso">Acceso</a></li>
+<li><a href="#panel-de-navegación">Panel de Navegación</a></li>
+<li><a href="#formulario-de-seguimiento">Formulario de Seguimiento</a></li>
+<li><a href="#vista-de-tabla-de-seguimientos">Vista de Tabla de Seguimientos</a></li>
+<li><a href="#consejos-útiles">Consejos Útiles</a></li>
+<li><a href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+</ol>
+<h2 id="introduccion">Introducción</h2>
+<p>Bienvenido al <strong>Sistema de Seguimiento Docente</strong>, una aplicación web diseñada específicamente para facilitar el seguimiento mensual de la programación didáctica de los módulos que impartes. Esta herramienta te permitirá:</p>
+<ul>
+<li>Registrar de manera eficiente el progreso de tus clases</li>
+<li>Documentar cualquier desviación respecto a la programación inicial</li>
+<li>Mantener un historial completo de tus avances por mes y evaluación</li>
+</ul>
+<h2 id="acceso">Acceso</h2>
+<p>Deberás iniciar sesión o registrarte antes de poder hacer uso del sistema.</p>
+<h3 id="iniciar-sesion">Iniciar sesión</h3>
+<p>Para iniciar sesión en el sistema si ya tienes una cuentra:</p>
+<ol>
+<li>Abra su navegador web y acceda a la dirección del sistema proporcionada por su institución.</li>
+<li>Introduce tu email y tu contraseña.</li>
+<li>Haz clic en el botón "Iniciar Sesión"</li>
+</ol>
+<h3 id="registrarse">Registrarse</h3>
+<p>Para crear una nueva cuenta en el sistema:</p>
+<ol>
+<li>Abra su navegador web y acceda a la dirección del sistema proporcionada por su institución.</li>
+<li>Si ya se encuentra en la página de inicio de sesión, haga clic en el botón "Registrarse".</li>
+</ol>
+<h3 id="formulario-de-registro">Formulario de Registro</h3>
+<p>En la página de registro, deberá completar el siguiente formulario:</p>
+<p><img alt="Registro" src="../img/registro.png" /></p>
+<h4 id="campos-obligatorios">Campos Obligatorios</h4>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descripción</th>
+<th>Requisitos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nombre y apellidos</strong></td>
+<td>Introduzca su nombre completo</td>
+<td>El sistema utilizará este nombre para identificarlo dentro de la plataforma</td>
+</tr>
+<tr>
+<td><strong>Email</strong></td>
+<td>Introduzca su dirección de correo electrónico</td>
+<td>Debe ser un correo válido y activo, ya que recibirá notificaciones del sistema</td>
+</tr>
+<tr>
+<td><strong>Contraseña</strong></td>
+<td>Cree una contraseña segura</td>
+<td>Debe contener al menos 8 caracteres</td>
+</tr>
+<tr>
+<td><strong>Repite contraseña</strong></td>
+<td>Introduzca nuevamente la contraseña</td>
+<td>Debe coincidir exactamente con la contraseña introducida anteriormente</td>
+</tr>
+</tbody>
+</table>
+<h4 id="consideraciones-importantes">Consideraciones Importantes</h4>
+<ul>
+<li><strong>Nombre completo</strong>: Es fundamental que introduzca su nombre y apellidos completos tal como aparecen en los registros oficiales de la institución para facilitar la identificación y asignación correcta de grupos de estudiantes.</li>
+<li><strong>Correo electrónico</strong>: Se recomienda utilizar su correo institucional para garantizar la recepción de todas las notificaciones relacionadas con sus grupos de estudiantes.</li>
+</ul>
+<h4 id="posibles-errores">Posibles Errores</h4>
+<p>El sistema validará la información proporcionada y mostrará mensajes de error cuando:</p>
+<ul>
+<li>Algún campo obligatorio esté vacío</li>
+<li>El formato del correo electrónico sea incorrecto</li>
+<li>La contraseña tenga menos de 8 caracteres</li>
+<li>Las contraseñas introducidas no coincidan</li>
+<li>El correo electrónico ya esté registrado en el sistema</li>
+</ul>
+<p>En caso de error, revise los campos marcados y corrija la información antes de intentar registrarse nuevamente.</p>
+<h4 id="finalizacion-del-registro">Finalización del Registro</h4>
+<p>Una vez completados correctamente todos los campos:</p>
+<ol>
+<li>Haga clic en el botón "Crear Usuario"</li>
+<li>El sistema procesará su solicitud y, si todo es correcto, creará su cuenta</li>
+<li>Podrá iniciar sesión inmediatamente utilizando el correo y la contraseña registrados</li>
+</ol>
+<p>Si ya tiene una cuenta en el sistema, puede hacer clic en "Ya tengo una cuenta" para ir directamente a la página de inicio de sesión.</p>
+<h2 id="panel-de-navegacion">Panel de Navegación</h2>
+<p>El sistema cuenta con un panel de navegación lateral que está siempre visible y te permite gestionar tus seguimientos.</p>
+<h3 id="elementos-del-panel-de-navegacion">Elementos del Panel de Navegación:</h3>
+<p><img alt="Navegación" src="../img/navegacion.png" /></p>
+<h4 id="1-selector-de-mes">1. Selector de Mes</h4>
+<ul>
+<li>En la parte superior encontrarás un selector de mes que te permite elegir el período para el que deseas consultar o crear seguimientos.</li>
+<li>Por defecto, se muestra el mes actual.</li>
+</ul>
+<h4 id="2-buscador-de-docencias">2. Buscador de Docencias</h4>
+<ul>
+<li>Puedes expandir un campo de búsqueda haciendo clic en el icono de lupa.</li>
+<li>Permite filtrar tus docencias por nombre del módulo o grupo.</li>
+<li>Para cerrar la búsqueda, haz clic en el icono X.</li>
+</ul>
+<h4 id="3-lista-de-docencias">3. Lista de Docencias</h4>
+<ul>
+<li>Muestra todas tus asignaciones docentes (módulo + grupo).</li>
+<li>Cada docencia muestra:</li>
+<li>Nombre del módulo</li>
+<li>Nombre del grupo (en un recuadro redondeado)</li>
+<li>Un indicador de estado:<ul>
+<li>✅ Cuadrado marcado verde: Seguimiento completado para el mes seleccionado</li>
+<li>⬜ Cuadrado sin marcar: Seguimiento pendiente para el mes seleccionado</li>
+</ul>
+</li>
+<li>Si no aparece ninguno, es posible que el administrador de tu sistema aún no te haya asignado ninguna docencia.</li>
+</ul>
+<h4 id="4-acciones-disponibles">4. Acciones Disponibles</h4>
+<ul>
+<li><strong>Clic en la docencia</strong>: Accede al formulario de seguimiento para el mes y docencia seleccionados</li>
+<li><strong>Icono de tabla</strong>: Accede a una vista de tabla con todos los seguimientos para esa docencia</li>
+</ul>
+<h4 id="5-contador-de-docencias">5. Contador de Docencias</h4>
+<ul>
+<li>En la parte inferior se muestra el total de docencias que tienes asignadas o que coinciden con tu búsqueda.</li>
+</ul>
+<h2 id="formulario-de-seguimiento">Formulario de Seguimiento</h2>
+<p>Al seleccionar una docencia y un mes específico, accederás al formulario de seguimiento dividido en varias secciones:
+<img alt="Formulario" src="../img/formulario-seguimiento.png" /></p>
+<h3 id="1-informacion-general">1. Información General</h3>
+<p>En la parte superior del formulario encontrarás:</p>
+<ul>
+<li>El nombre del módulo y grupo seleccionado</li>
+<li>Una indicación si el seguimiento fue realizado originalmente por otro profesor (en caso de sustituciones)</li>
+</ul>
+<h3 id="2-situacion-actual-de-la-docencia">2. Situación Actual de la Docencia</h3>
+<p>Esta sección te permite documentar el estado actual de tus clases:</p>
+<h4 id="unidades-de-trabajo-completadas">Unidades de trabajo completadas</h4>
+<ul>
+<li>Verás una lista de todas las unidades didácticas del módulo</li>
+<li>Marca las casillas de las unidades que ya has finalizado</li>
+<li>Puedes hacer clic directamente sobre el nombre de cada unidad para marcarla o desmarcarla</li>
+</ul>
+<h4 id="unidad-de-trabajo-actual">Unidad de trabajo actual</h4>
+<ul>
+<li>Selecciona del desplegable la unidad que estás impartiendo actualmente</li>
+<li>Esta selección es obligatoria</li>
+</ul>
+<h4 id="evaluacion">Evaluación</h4>
+<ul>
+<li>Indica a qué evaluación corresponde (Primera, Segunda o Tercera)</li>
+<li>Este campo es obligatorio</li>
+</ul>
+<h4 id="ultimo-contenido-impartido">Último contenido impartido</h4>
+<ul>
+<li>Describe brevemente el último tema o contenido trabajado con el grupo</li>
+<li>Si existe un seguimiento anterior, verás como referencia lo que indicaste previamente</li>
+<li>Este campo es obligatorio</li>
+</ul>
+<h3 id="3-estado-de-la-programacion">3. Estado de la Programación</h3>
+<p>Aquí indicas cómo avanza la programación respecto a lo previsto:</p>
+<h4 id="estado-actual">Estado actual</h4>
+<ul>
+<li><strong>Al día</strong>: La programación se sigue según lo planeado</li>
+<li><strong>Atrasado</strong>: Hay retraso respecto a la programación inicial</li>
+<li><strong>Adelantado</strong>: Se ha avanzado más de lo previsto inicialmente</li>
+</ul>
+<h4 id="justificacion-del-estado-actual">Justificación del estado actual</h4>
+<ul>
+<li>Este campo aparece automáticamente si seleccionas "Atrasado" o "Adelantado"</li>
+<li>Debes explicar los motivos por los que existe esta desviación</li>
+<li>Es un campo obligatorio cuando el estado no es "Al día"</li>
+</ul>
+<h3 id="4-cumplimiento-de-la-programacion">4. Cumplimiento de la Programación</h3>
+<p>Esta sección documenta si estás siguiendo la programación didáctica aprobada:</p>
+<h4 id="cumple-la-programacion">Cumple la programación</h4>
+<ul>
+<li>Marca esta casilla si estás siguiendo la programación tal como fue aprobada</li>
+<li>Por defecto está marcada</li>
+</ul>
+<h4 id="si-desactivas-cumple-la-programacion">Si desactivas "Cumple la programación"</h4>
+<p>Se mostrarán campos adicionales obligatorios:</p>
+<h5 id="motivo-de-incumplimiento"><strong>Motivo de incumplimiento</strong>:</h5>
+<p>Debes seleccionar entre:</p>
+<ul>
+<li>Cambio en los Contenidos</li>
+<li>Cambio en la Secuenciación y distribución temporal de las UTs</li>
+<li>Cambio en Actividades</li>
+<li>Cambio en Evaluación</li>
+</ul>
+<h5 id="justificacion-del-incumplimiento"><strong>Justificación del incumplimiento</strong>:</h5>
+<p>Campo donde debes explicar detalladamente por qué ha sido necesario modificar la programación aprobada</p>
+<h3 id="5-guardar-el-seguimiento">5. Guardar el seguimiento</h3>
+<p>En la parte inferior del formulario encontrarás:</p>
+<ul>
+<li><strong>Guardar nuevo seguimiento</strong>: Si es la primera vez que realizas un seguimiento para este mes.</li>
+<li><strong>Guardar cambios</strong>: Si estás modificando un seguimiento que ya existe.</li>
+</ul>
+<p>Tras enviar el formulario, un mensaje te informará si el guardado ha sido exitoso o si hay errores que debes corregir.</p>
+<h2 id="vista-de-tabla-de-seguimientos">Vista de Tabla de Seguimientos</h2>
+<p>Al hacer clic en el icono de tabla junto a una docencia en el panel de navegación, accederás a una vista completa de todos los seguimientos de esa asignación.</p>
+<h3 id="informacion-general-del-modulo">Información General del Módulo</h3>
+<p>En la parte superior encontrarás una tarjeta con:</p>
+<ul>
+<li>
+<p><strong>Información del Módulo</strong>:</p>
+</li>
+<li>
+<p>Nombre del módulo</p>
+</li>
+<li>Ciclo formativo al que pertenece</li>
+<li>Año académico actual</li>
+<li>
+<p>Grupo asignado</p>
+</li>
+<li>
+<p><strong>Listado de Unidades de Trabajo</strong>:</p>
+</li>
+<li>Todas las UTs del módulo numeradas y con sus títulos</li>
+</ul>
+<h3 id="tabla-de-seguimientos">Tabla de Seguimientos</h3>
+<p>La tabla principal muestra cronológicamente todos los seguimientos realizados para esta docencia con las siguientes columnas:</p>
+<table>
+<thead>
+<tr>
+<th>Columna</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mes</strong></td>
+<td>Nombre del mes al que corresponde el seguimiento</td>
+</tr>
+<tr>
+<td><strong>Estado</strong></td>
+<td>Estado de la programación con código de colores:<br>• <strong>Verde</strong>: Al día<br>• <strong>Rojo</strong>: Atrasado<br>• <strong>Azul</strong>: Adelantado<br><em>Incluye la justificación si está disponible</em></td>
+</tr>
+<tr>
+<td><strong>Unidades de Trabajo completadas</strong></td>
+<td>Número de UTs completadas respecto al total y listado de las mismas</td>
+</tr>
+<tr>
+<td><strong>Unidad de Trabajo actual</strong></td>
+<td>UT que se está impartiendo en ese mes</td>
+</tr>
+<tr>
+<td><strong>Último Contenido</strong></td>
+<td>Resumen del último contenido impartido</td>
+</tr>
+<tr>
+<td><strong>Cumple Programación</strong></td>
+<td>Indicador Sí/No con código de colores:<br>• <strong>Verde</strong>: Sí<br>• <strong>Rojo</strong>: No<br><em>Incluye el motivo y justificación si no se cumple</em></td>
+</tr>
+<tr>
+<td><strong>Evaluación</strong></td>
+<td>Indica a qué evaluación corresponde (Primera, Segunda o Tercera)</td>
+</tr>
+<tr>
+<td><strong>Examinar</strong></td>
+<td>Botón con icono de ojo que permite acceder directamente al formulario completo de ese seguimiento</td>
+</tr>
+</tbody>
+</table>
+<p>Esta vista te permite tener una panorámica completa de la evolución de tu docencia a lo largo del curso académico, facilitando la detección de patrones o problemas recurrentes.</p>
+<h2 id="consejos-utiles">Consejos Útiles</h2>
+<ul>
+<li>
+<p><strong>Actualización mensual</strong>: Completa los seguimientos mensualmente para mantener al día la documentación del departamento.</p>
+</li>
+<li>
+<p><strong>Detalle en justificaciones</strong>: Sé específico en las justificaciones para documentar adecuadamente cualquier incidencia o cambio.</p>
+</li>
+<li>
+<p><strong>Revisión de histórico</strong>: Consulta los seguimientos anteriores antes de crear uno nuevo para mantener la coherencia.</p>
+</li>
+<li>
+<p><strong>Planificación</strong>: Utiliza la vista de tabla para tener una perspectiva global de todos tus seguimientos a lo largo del curso.</p>
+</li>
+<li>
+<p><strong>Búsqueda eficiente</strong>: Si tienes muchas docencias asignadas, utiliza el buscador para encontrar rápidamente un módulo o grupo específico.</p>
+</li>
+</ul>
+<h2 id="preguntas-frecuentes">Preguntas Frecuentes</h2>
+<p><strong>¿Puedo modificar un seguimiento después de haberlo guardado?</strong><br />
+Sí, puedes acceder nuevamente al formulario del mes correspondiente y hacer los cambios necesarios.</p>
+<p><strong>¿Cómo puedo ver el historial completo de seguimientos de un módulo?</strong><br />
+En el panel lateral, junto a cada docencia, encontrarás un icono de tabla . Al hacer clic en él, accederás a una vista completa que muestra todos los seguimientos realizados para ese módulo y grupo a lo largo del curso académico.</p>
+<p><strong>¿Cómo sé qué seguimientos tengo pendientes?</strong><br />
+En el panel lateral de navegación, los seguimientos pendientes aparecen con un cuadrado sin marcar, mientras que los completados muestran un cuadrado verde marcado.</p>
+<p><strong>¿Quién puede ver mis seguimientos?</strong><br />
+Los seguimientos son visibles para ti, para aquellos profesores que compartan una misma docencia que tú (que imparten al mismo módulo y grupo para el que hiciste el seguimiento)</p>
+<p><strong>¿Puedo realizar el seguimiento de un mes pasado?</strong><br />
+Sí, el sistema permite crear seguimientos de meses anteriores si no los has completado. Simplemente selecciona el mes deseado en el selector de mes del panel de navegación.</p>
+<p><strong>¿Se guarda automáticamente el borrador de mi seguimiento?</strong><br />
+No, el sistema no guarda borradores automáticamente. Debes hacer clic en el botón "Guardar" para registrar tu seguimiento.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Introducción"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Administrador/" class="btn btn-neutral float-right" title="Administradores">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Administrador/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
