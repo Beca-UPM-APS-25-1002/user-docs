@@ -154,7 +154,8 @@ Para cada seguimiento, puede indicar las unidades de trabajo completadas:
 
 ## Filtrado
 
-[Filtros](img/filtros.png)
+![Filtros](img/filtros.png)
+
 Las diferentes tablas pueden filtrarse usando desplegables en la parte superior de la pantalla. Una vez hayas hecho tu selección haz click en el botón "Buscar" para aplicar los filtros.
 
 Nota: Por defecto se aplica un filtro por el año actual, este filtro puede cambiarse como todos los demás.
