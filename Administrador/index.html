@@ -49,6 +49,68 @@
               </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Administradores</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduccion">Introducción</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#envio-de-recordatorios-de-seguimientos">Envío de Recordatorios de Seguimientos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#acceso">Acceso</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#flujo-de-trabajo">Flujo de Trabajo</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#consideraciones-importantes">Consideraciones Importantes</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#acceso-a-la-interfaz-administrativa">Acceso a la interfaz administrativa</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gestion-de-anos-academicos">Gestión de años académicos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#crear-ano-academico">Crear año académico</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#clonar-ano-academico">Clonar año académico</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gestion-de-ciclos-modulos-y-grupos">Gestión de ciclos, módulos y grupos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#ciclos-formativos">Ciclos formativos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#modulos">Módulos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#grupos">Grupos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#unidades-de-trabajo">Unidades de trabajo</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gestion-de-profesores">Gestión de profesores</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gestion-de-docencias">Gestión de docencias</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gestion-de-seguimientos">Gestión de seguimientos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#crear-un-seguimiento">Crear un seguimiento</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#temario-completado">Temario completado</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#filtrado">Filtrado</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#reportes-y-exportaciones">Reportes y exportaciones</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#exportar-a-excel-o-otro-formato-en-tabla">Exportar a Excel o otro formato en tabla</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#generar-pdf">Generar PDF</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuracion-de-notificaciones">Configuración de notificaciones</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuracion-del-servidor-de-email">Configuración del servidor de email</a>
+    </li>
+    </ul>
                 </li>
               </ul>
       </div>
@@ -74,7 +136,202 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h1 id="sistema-de-seguimientos-docentes-manual-de-administracion">Sistema de Seguimientos Docentes: Manual de Administración</h1>
+<h2 id="introduccion">Introducción</h2>
+<p>Este sistema permite gestionar el seguimiento docente en un centro educativo. Facilita el control del avance académico, permitiendo a los jefes de departamento y administradores supervisar el cumplimiento de las programaciones didácticas.</p>
+<h2 id="envio-de-recordatorios-de-seguimientos">Envío de Recordatorios de Seguimientos</h2>
+<p>Esta sección explica el funcionamiento del sistema de envío de recordatorios para los seguimientos de docencia que aún no han sido completados por los profesores. Usted podrá seleccionar un mes específico y enviar correos electrónicos de recordatorio a los profesores correspondientes.</p>
+<h3 id="acceso">Acceso</h3>
+<p>Tendrá que <a href="../Profesor/#acceso">acceder</a> con una cuenta administrativa a la dirección del sistema proporcionada por tu institución. Una vez iniciada la sesión haga clic en el botón "Recordatorios" con un icono de sobre (✉️) en la parte superior izquierda de la pantalla.</p>
+<h3 id="flujo-de-trabajo">Flujo de Trabajo</h3>
+<p><img alt="Recordatorios" src="../img/recordatorios.png" /></p>
+<ol>
+<li>
+<p><strong>Selección del Mes:</strong> Utilice el selector de mes ubicado en la parte superior para filtrar los seguimientos pendientes correspondientes al mes deseado. Al cambiar el mes, la lista de seguimientos pendientes se actualizará automáticamente.</p>
+</li>
+<li>
+<p><strong>Listado de Seguimientos Pendientes:</strong> Se mostrará una tabla con los seguimientos de docencia que aún no han sido realizados para el mes seleccionado. La tabla incluye información relevante como el nombre del profesor, su correo electrónico, el módulo, el grupo, el curso y el ciclo formativo asociado.</p>
+</li>
+<li>
+<p><strong>Selección de Profesores:</strong> Usted puede seleccionar individualmente a los profesores a los que desea enviar un recordatorio marcando la casilla de verificación que se encuentra en la primera columna de cada fila. También tiene la opción de seleccionar todos los profesores activos de la lista utilizando la casilla de verificación ubicada en la cabecera de la tabla. Los profesores inactivos aparecerán deshabilitados y no podrán ser seleccionados para el envío de recordatorios.</p>
+</li>
+<li>
+<p><strong>Envío de Recordatorios:</strong> Una vez que haya seleccionado a los profesores deseados, haga clic en el botón "Enviar [Número] recordatorios". El número que aparece en el botón se actualizará dinámicamente según la cantidad de profesores que haya seleccionado.</p>
+</li>
+<li>
+<p><strong>Confirmación y Errores:</strong></p>
+<ul>
+<li><strong>Éxito:</strong> Si el envío de los correos electrónicos de recordatorio se realiza correctamente, aparecerá un mensaje de confirmación en la parte superior de la pantalla indicando el número de correos electrónicos que han sido enviados, deberían aparecer tantos como profesores distintos ha seleccionado.</li>
+<li><strong>Error:</strong> Si ocurre algún error durante el proceso de envío, se mostrará un mensaje de error en la parte superior de la pantalla indicando la naturaleza del problema.</li>
+</ul>
+</li>
+</ol>
+<h3 id="consideraciones-importantes">Consideraciones Importantes</h3>
+<ul>
+<li>El sistema solo mostrará los seguimientos pendientes de profesores que estén marcados como "activos" en el sistema.</li>
+<li>Los profesores inactivos no podrán ser seleccionados para el envío de recordatorios.</li>
+<li>Asegúrese de seleccionar el mes correcto antes de enviar los recordatorios.</li>
+<li>Verifique la lista de profesores seleccionados antes de proceder con el envío.</li>
+</ul>
+<h2 id="acceso-a-la-interfaz-administrativa">Acceso a la interfaz administrativa</h2>
+<p>Puede acceder a la interfaz administrativa a través de la aplicación web, dándole al botón de ajustes, icono de engranaje (⚙️) en la parte superior izquierda de la pantalla, o directamente mediante el enlace de administración proveído por su institución.</p>
+<ol>
+<li>Iniciar sesión con un usuario que tenga permisos de administrador</li>
+<li>La interfaz mostrará el panel "Administración de Seguimientos" con todas las secciones disponibles</li>
+</ol>
+<h2 id="gestion-de-anos-academicos">Gestión de años académicos</h2>
+<h3 id="crear-ano-academico">Crear año académico</h3>
+<blockquote>
+<p>Si ya existen años académicos es recomendia clonar el anterior <a href="#clonar-año-académico">cómo se indica aquí</a></p>
+</blockquote>
+<ol>
+<li>Ir a "Años Académicos" en el panel de administración</li>
+<li>Hacer clic en "Añadir Año Académico"</li>
+<li>Introducir el año académico en formato "XXXX-YY" (ej. "2023-24")</li>
+<li>Marcar "Actual" si es el año académico en curso</li>
+<li>Guardar los cambios</li>
+</ol>
+<h3 id="clonar-ano-academico">Clonar año académico</h3>
+<p>Esta función permite copiar la estructura de un año académico previo:</p>
+<ol>
+<li>En la lista de años académicos, localice el botón "Clonar" junto al año que desea replicar</li>
+<li>Seleccione una de las opciones:</li>
+<li><strong>Ciclos</strong>: Solo clona la estructura de ciclos formativos</li>
+<li><strong>Módulos</strong>: Clona ciclos, módulos y unidades de trabajo</li>
+<li><strong>Docencias</strong>: Clona ciclos, módulos, unidades de trabajo y asignaciones docentes</li>
+<li>Introduzca el nuevo año académico y confirme</li>
+</ol>
+<h2 id="gestion-de-ciclos-modulos-y-grupos">Gestión de ciclos, módulos y grupos</h2>
+<h3 id="ciclos-formativos">Ciclos formativos</h3>
+<ol>
+<li>Acceda a "Ciclos" en el panel de administración</li>
+<li>Para añadir un ciclo, haga clic en "Añadir Ciclo" e introduzca:</li>
+<li>Nombre del ciclo (ej. "Desarrollo de Aplicaciones Web")</li>
+<li>Año académico al que pertenece</li>
+<li>Desde la pantalla de edición, puede añadir grupos y módulos mediante los formularios integrados</li>
+</ol>
+<h3 id="modulos">Módulos</h3>
+<ol>
+<li>Acceda a "Módulos" en el panel de administración</li>
+<li>Al crear un módulo, debe especificar:</li>
+<li>Nombre del módulo</li>
+<li>Curso al que pertenece (1º, 2º, etc.)</li>
+<li>Ciclo formativo asociado</li>
+<li>Dentro de cada módulo puede añadir:</li>
+<li>Unidades de trabajo mediante la sección "Unidades de Trabajo"</li>
+<li>Docencias (asignaciones profesor-grupo) mediante la sección "Docencias"</li>
+</ol>
+<h3 id="grupos">Grupos</h3>
+<ol>
+<li>Acceda a "Grupos" en el panel de administración</li>
+<li>Para cada grupo, deberá indicar:</li>
+<li>Nombre del grupo (ej. "DAW1M")</li>
+<li>Ciclo formativo al que pertenece</li>
+<li>Curso (1º, 2º, etc.)</li>
+</ol>
+<h3 id="unidades-de-trabajo">Unidades de trabajo</h3>
+<p>Las unidades de trabajo se gestionan desde dentro de cada módulo:</p>
+<ol>
+<li>Edite un módulo existente</li>
+<li>En la sección "Unidades de Trabajo", añada cada unidad indicando:</li>
+<li>Número de tema</li>
+<li>Título de la unidad</li>
+</ol>
+<h2 id="gestion-de-profesores">Gestión de profesores</h2>
+<ol>
+<li>Acceda a "Profesores" en el panel de administración</li>
+<li>Al crear un profesor, deberá indicar:</li>
+<li>Email (será el nombre de usuario para acceso)</li>
+<li>Contraseña</li>
+<li>Nombre completo</li>
+<li>Estado (activo/inactivo)</li>
+<li>Permisos de administración (mediante el toggle "Es Administrador")</li>
+</ol>
+<p>Los profesores inactivos no recibirán emails de recordatorio por falta de seguimiento.</p>
+<p>Los profesores con permisos de administrador podrán acceder a toda la interfaz administrativa.</p>
+<h2 id="gestion-de-docencias">Gestión de docencias</h2>
+<p>Las docencias establecen la relación entre profesores, módulos y grupos:</p>
+<ol>
+<li>Se pueden gestionar desde la pantalla de edición de un módulo</li>
+<li>Para cada docencia se debe especificar:</li>
+<li>Profesor asignado</li>
+<li>Grupo</li>
+<li>Módulo (predeterminado al modulo que se está editando)</li>
+</ol>
+<h2 id="gestion-de-seguimientos">Gestión de seguimientos</h2>
+<h3 id="crear-un-seguimiento">Crear un seguimiento</h3>
+<ol>
+<li>Acceda a "Seguimientos" en el panel de administración</li>
+<li>Haga clic en "Añadir Seguimiento"</li>
+<li>Complete el formulario:</li>
+<li><strong>Docencia</strong>: Seleccione la combinación profesor-módulo-grupo</li>
+<li><strong>Mes</strong>: Seleccione el mes del seguimiento</li>
+<li><strong>Temario actual</strong>: Seleccione la unidad en la que se encuentra actualmente</li>
+<li><strong>Evaluación</strong>: Indique la evaluación correspondiente (Primera, Segunda o Tercera)</li>
+<li><strong>Último contenido impartido</strong>: Describa brevemente el contenido más reciente</li>
+<li><strong>Estado</strong>: Seleccione si está Atrasado, Al día o Adelantado</li>
+<li><strong>Justificación</strong>: Obligatoria si el estado no es "Al día"</li>
+<li><strong>Cumple programación</strong>: Indique si cumple con la programación didáctica</li>
+<li><strong>Justificación</strong>: Obligatoria si no cumple la programación</li>
+<li><strong>Motivo</strong>: Seleccione el motivo si no cumple la programación</li>
+</ol>
+<h3 id="temario-completado">Temario completado</h3>
+<p>Para cada seguimiento, puede indicar las unidades de trabajo completadas:</p>
+<ol>
+<li>En la pantalla de edición del seguimiento, localice la sección "Temarios Completados"</li>
+<li>Añada las unidades que han sido finalizadas</li>
+</ol>
+<h2 id="filtrado">Filtrado</h2>
+<p><a href="../img/filtros.png">Filtros</a>
+Las diferentes tablas pueden filtrarse usando desplegables en la parte superior de la pantalla. Una vez hayas hecho tu selección haz click en el botón "Buscar" para aplicar los filtros.</p>
+<p>Nota: Por defecto se aplica un filtro por el año actual, este filtro puede cambiarse como todos los demás.</p>
+<h2 id="reportes-y-exportaciones">Reportes y exportaciones</h2>
+<h3 id="exportar-a-excel-o-otro-formato-en-tabla">Exportar a Excel o otro formato en tabla</h3>
+<p><img alt="Exportar" src="../img/exportar.png" /></p>
+<ol>
+<li>Desde la pantalla de seguimientos, filtre los registros para seleccionar aquellos que desea exportar. Se exportara todo lo que aparezca en la tabla en ese momento, independientemente de si ha seleccionado o no elementos</li>
+<li>Pulse el botón "Exportar" al lado del botón "Añadir seguimiento"</li>
+<li>Puede modificar las columnas que quiere que aparezcan en el documento</li>
+<li>Elija el formato de exportación (Excel, CSV, etc.)</li>
+<li>Pulse "Enviar"</li>
+</ol>
+<h3 id="generar-pdf">Generar PDF</h3>
+<ol>
+<li>Desde la pantalla de seguimientos, seleccione los registros que desea incluir mediante los botones de selección de la tabla.</li>
+<li>En el desplegable de acciones, al lado del botón "Ir", seleccione "Exportar seguimientos seleccionados a PDF" y pulse el botón "Ir"</li>
+<li>El sistema generará un informe PDF con los seguimientos agrupados por año académico y mes</li>
+</ol>
+<h2 id="configuracion-de-notificaciones">Configuración de notificaciones</h2>
+<p>El sistema puede enviar recordatorios por email a los profesores:</p>
+<ol>
+<li>Acceda a "Configuración de Email de Recordatorio"</li>
+<li>Personalice:</li>
+<li><strong>Asunto</strong>: Define el asunto del correo (puede incluir variables)</li>
+<li><strong>Contenido</strong>: Defina el cuerpo del mensaje</li>
+</ol>
+<p>Las variables disponibles son:</p>
+<ul>
+<li><code>{{ nombre_profesor }}</code>: Nombre del profesor</li>
+<li><code>{{ mes }}</code>: Nombre del mes del seguimiento</li>
+<li><code>{{ listado_docencias }}</code>: Lista de docencias pendientes</li>
+<li><code>{{ url_frontend }}</code>: URL para acceder al sistema</li>
+</ul>
+<p>Nota: Es obligatorio incluir al menos <code>{{ mes }}</code> y <code>{{ listado_docencias }}</code> en el contenido.</p>
+<p>Se pueden añadir las variables en cualquier sitio, pero se recomienda que <code>{{ listado_docencias }}</code> tenga su propia línea, ya que se trata de una lista.</p>
+<h2 id="configuracion-del-servidor-de-email">Configuración del servidor de email</h2>
+<p>El sistema necesita tener una conexión a un servidor de email para poder mandar emails de recordatorio y de recuperación de contraseña. Para configurarlo:</p>
+<ol>
+<li>Acceda a "Configuración de Correo"</li>
+<li>Configure:</li>
+<li><strong>Email host</strong>, el servidor que se utilizará para enviar correo electrónico.</li>
+<li><strong>Email port,</strong> puerto a utilizar para el servidor SMTP.</li>
+<li><strong>Email host user</strong>, nombre de usuario para el servidor SMTP.</li>
+<li><strong>Email host password</strong>, contraseña para el servidor SMTP.</li>
+<li><strong>Email use tls</strong>, si se debe usar una conexión TLS.</li>
+<li><strong>Email use ssl</strong>, si se debe usar una conexión SSL implícita.</li>
+<li><strong>Email fail silently</strong>, si los errores deben ser silenciosos al enviar correo.</li>
+<li><strong>Email timeout</strong>, el tiempo necesario de espera antes de abortar la operación de espera de envío (no debería necesitar ser modificado)</li>
+</ol>
               
             </div>
           </div><footer>
