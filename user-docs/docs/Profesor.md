@@ -1,15 +1,5 @@
 # Manual de Usuario: Sistema de Seguimiento Docente
 
-## Índice
-
-1. [Introducción](#introducción)
-2. [Acceso](#acceso)
-3. [Panel de Navegación](#panel-de-navegación)
-4. [Formulario de Seguimiento](#formulario-de-seguimiento)
-5. [Vista de Tabla de Seguimientos](#vista-de-tabla-de-seguimientos)
-6. [Consejos Útiles](#consejos-útiles)
-7. [Preguntas Frecuentes](#preguntas-frecuentes)
-
 ## Introducción
 
 Bienvenido al **Sistema de Seguimiento Docente**, una aplicación web diseñada específicamente para facilitar el seguimiento mensual de la programación didáctica de los módulos que impartes. Esta herramienta te permitirá:
@@ -26,7 +16,7 @@ Deberás iniciar sesión o registrarte antes de poder hacer uso del sistema.
 
 Para iniciar sesión en el sistema si ya tienes una cuentra:
 
-1. Abra su navegador web y acceda a la dirección del sistema proporcionada por su institución.
+1. Abre tu navegador web y acceda a la dirección del sistema proporcionada por tu institución.
 2. Introduce tu email y tu contraseña.
 3. Haz clic en el botón "Iniciar Sesión"
 
@@ -34,7 +24,7 @@ Para iniciar sesión en el sistema si ya tienes una cuentra:
 
 Para crear una nueva cuenta en el sistema:
 
-1. Abra su navegador web y acceda a la dirección del sistema proporcionada por su institución.
+1. Abre tu navegador web y acceda a la dirección del sistema proporcionada por tu institución.
 2. Si ya se encuentra en la página de inicio de sesión, haga clic en el botón "Registrarse".
 
 ### Formulario de Registro
@@ -45,17 +35,17 @@ En la página de registro, deberá completar el siguiente formulario:
 
 #### Campos Obligatorios
 
-| Campo                  | Descripción                                   | Requisitos                                                                     |
-| ---------------------- | --------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Nombre y apellidos** | Introduzca su nombre completo                 | El sistema utilizará este nombre para identificarlo dentro de la plataforma    |
-| **Email**              | Introduzca su dirección de correo electrónico | Debe ser un correo válido y activo, ya que recibirá notificaciones del sistema |
-| **Contraseña**         | Cree una contraseña segura                    | Debe contener al menos 8 caracteres                                            |
-| **Repite contraseña**  | Introduzca nuevamente la contraseña           | Debe coincidir exactamente con la contraseña introducida anteriormente         |
+| Campo                  | Descripción                                  | Requisitos                                                                     |
+| ---------------------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Nombre y apellidos** | Introduce tu nombre completo                 | El sistema utilizará este nombre para identificarlo dentro de la plataforma    |
+| **Email**              | Introduce tu dirección de correo electrónico | Debe ser un correo válido y activo, ya que recibirá notificaciones del sistema |
+| **Contraseña**         | Cree una contraseña segura                   | Debe contener al menos 8 caracteres                                            |
+| **Repite contraseña**  | Introduzca nuevamente la contraseña          | Debe coincidir exactamente con la contraseña introducida anteriormente         |
 
 #### Consideraciones Importantes
 
-- **Nombre completo**: Es fundamental que introduzca su nombre y apellidos completos tal como aparecen en los registros oficiales de la institución para facilitar la identificación y asignación correcta de grupos de estudiantes.
-- **Correo electrónico**: Se recomienda utilizar su correo institucional para garantizar la recepción de todas las notificaciones relacionadas con sus grupos de estudiantes.
+- **Nombre completo**: Es fundamental que Introduce tu nombre y apellidos completos tal como aparecen en los registros oficiales de la institución para facilitar la identificación y asignación correcta de grupos de estudiantes.
+- **Correo electrónico**: Se recomienda utiliza tu correo institucional para garantizar la recepción de todas las notificaciones relacionadas con tus grupos de estudiantes.
 
 #### Posibles Errores
 
@@ -67,17 +57,17 @@ El sistema validará la información proporcionada y mostrará mensajes de error
 - Las contraseñas introducidas no coincidan
 - El correo electrónico ya esté registrado en el sistema
 
-En caso de error, revise los campos marcados y corrija la información antes de intentar registrarse nuevamente.
+En caso de error, revisa los campos marcados y corrije la información antes de intentar registrarte nuevamente.
 
 #### Finalización del Registro
 
 Una vez completados correctamente todos los campos:
 
-1. Haga clic en el botón "Crear Usuario"
-2. El sistema procesará su solicitud y, si todo es correcto, creará su cuenta
-3. Podrá iniciar sesión inmediatamente utilizando el correo y la contraseña registrados
+1. Haz clic en el botón "Crear Usuario"
+2. El sistema procesará tu solicitud y, si todo es correcto, creará tu cuenta
+3. Podrás iniciar sesión inmediatamente utilizando el correo y la contraseña registrados
 
-Si ya tiene una cuenta en el sistema, puede hacer clic en "Ya tengo una cuenta" para ir directamente a la página de inicio de sesión.
+Si ya tienes una cuenta en el sistema, puedes hacer clic en "Ya tengo una cuenta" para ir directamente a la página de inicio de sesión.
 
 ## Panel de Navegación
 
