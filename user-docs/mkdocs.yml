@@ -1,0 +1,7 @@
+site_name: Documentación de usuario para sistema de seguimiento
+theme:
+  name: readthedocs
+nav:
+  - Introducción: "index.md"
+  - Profesores: "Profesor.md"
+  - Administradores: "Administrador.md"
