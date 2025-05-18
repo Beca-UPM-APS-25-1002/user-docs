@@ -4,9 +4,9 @@
 
 Bienvenido al **Sistema de Seguimiento Docente**, una aplicación web diseñada específicamente para facilitar el seguimiento mensual de la programación didáctica de los módulos que impartes. Esta herramienta te permitirá:
 
-- Registrar de manera eficiente el progreso de tus clases
-- Documentar cualquier desviación respecto a la programación inicial
-- Mantener un historial completo de tus avances por mes y evaluación
+-   Registrar de manera eficiente el progreso de tus clases
+-   Documentar cualquier desviación respecto a la programación inicial
+-   Mantener un historial completo de tus avances por mes y evaluación
 
 ## Acceso
 
@@ -44,18 +44,18 @@ En la página de registro, deberá completar el siguiente formulario:
 
 #### Consideraciones Importantes
 
-- **Nombre completo**: Es fundamental que Introduce tu nombre y apellidos completos tal como aparecen en los registros oficiales de la institución para facilitar la identificación y asignación correcta de grupos de estudiantes.
-- **Correo electrónico**: Se recomienda utiliza tu correo institucional para garantizar la recepción de todas las notificaciones relacionadas con tus grupos de estudiantes.
+-   **Nombre completo**: Es fundamental que Introduce tu nombre y apellidos completos tal como aparecen en los registros oficiales de la institución para facilitar la identificación y asignación correcta de grupos de estudiantes.
+-   **Correo electrónico**: Se recomienda utiliza tu correo institucional para garantizar la recepción de todas las notificaciones relacionadas con tus grupos de estudiantes.
 
 #### Posibles Errores
 
 El sistema validará la información proporcionada y mostrará mensajes de error cuando:
 
-- Algún campo obligatorio esté vacío
-- El formato del correo electrónico sea incorrecto
-- La contraseña tenga menos de 8 caracteres
-- Las contraseñas introducidas no coincidan
-- El correo electrónico ya esté registrado en el sistema
+-   Algún campo obligatorio esté vacío
+-   El formato del correo electrónico sea incorrecto
+-   La contraseña tenga menos de 8 caracteres
+-   Las contraseñas introducidas no coincidan
+-   El correo electrónico ya esté registrado en el sistema
 
 En caso de error, revisa los campos marcados y corrije la información antes de intentar registrarte nuevamente.
 
@@ -79,34 +79,34 @@ El sistema cuenta con un panel de navegación lateral que está siempre visible 
 
 #### 1. Selector de Mes
 
-- En la parte superior encontrarás un selector de mes que te permite elegir el período para el que deseas consultar o crear seguimientos.
-- Por defecto, se muestra el mes actual.
+-   En la parte superior encontrarás un selector de mes que te permite elegir el período para el que deseas consultar o crear seguimientos.
+-   Por defecto, se muestra el mes actual.
 
 #### 2. Buscador de Docencias
 
-- Puedes expandir un campo de búsqueda haciendo clic en el icono de lupa.
-- Permite filtrar tus docencias por nombre del módulo o grupo.
-- Para cerrar la búsqueda, haz clic en el icono X.
+-   Puedes expandir un campo de búsqueda haciendo clic en el icono de lupa.
+-   Permite filtrar tus docencias por nombre del módulo o grupo.
+-   Para cerrar la búsqueda, haz clic en el icono X.
 
 #### 3. Lista de Docencias
 
-- Muestra todas tus asignaciones docentes (módulo + grupo).
-- Cada docencia muestra:
-  - Nombre del módulo
-  - Nombre del grupo (en un recuadro redondeado)
-  - Un indicador de estado:
-    - ✅ Cuadrado marcado verde: Seguimiento completado para el mes seleccionado
-    - ⬜ Cuadrado sin marcar: Seguimiento pendiente para el mes seleccionado
-- Si no aparece ninguno, es posible que el administrador de tu sistema aún no te haya asignado ninguna docencia.
+-   Muestra todas tus asignaciones docentes (módulo + grupo).
+-   Cada docencia muestra:
+    -   Nombre del módulo
+    -   Nombre del grupo (en un recuadro redondeado)
+    -   Un indicador de estado:
+        -   ✅ Cuadrado marcado verde: Seguimiento completado para el mes seleccionado
+        -   ⬜ Cuadrado sin marcar: Seguimiento pendiente para el mes seleccionado
+-   Si no aparece ninguno, es posible que el administrador de tu sistema aún no te haya asignado ninguna docencia.
 
 #### 4. Acciones Disponibles
 
-- **Clic en la docencia**: Accede al formulario de seguimiento para el mes y docencia seleccionados
-- **Icono de tabla**: Accede a una vista de tabla con todos los seguimientos para esa docencia
+-   **Clic en la docencia**: Accede al formulario de seguimiento para el mes y docencia seleccionados
+-   **Icono de tabla**: Accede a una vista de tabla con todos los seguimientos para esa docencia
 
 #### 5. Contador de Docencias
 
-- En la parte inferior se muestra el total de docencias que tienes asignadas o que coinciden con tu búsqueda.
+-   En la parte inferior se muestra el total de docencias que tienes asignadas o que coinciden con tu búsqueda.
 
 ## Formulario de Seguimiento
 
@@ -117,8 +117,8 @@ Al seleccionar una docencia y un mes específico, accederás al formulario de se
 
 En la parte superior del formulario encontrarás:
 
-- El nombre del módulo y grupo seleccionado
-- Una indicación si el seguimiento fue realizado originalmente por otro profesor (en caso de sustituciones)
+-   El nombre del módulo y grupo seleccionado
+-   Una indicación si el seguimiento fue realizado originalmente por otro profesor (en caso de sustituciones)
 
 ### 2. Situación Actual de la Docencia
 
@@ -126,25 +126,25 @@ Esta sección te permite documentar el estado actual de tus clases:
 
 #### Unidades de trabajo completadas
 
-- Verás una lista de todas las unidades didácticas del módulo
-- Marca las casillas de las unidades que ya has finalizado
-- Puedes hacer clic directamente sobre el nombre de cada unidad para marcarla o desmarcarla
+-   Verás una lista de todas las unidades didácticas del módulo
+-   Marca las casillas de las unidades que ya has finalizado
+-   Puedes hacer clic directamente sobre el nombre de cada unidad para marcarla o desmarcarla
 
 #### Unidad de trabajo actual
 
-- Selecciona del desplegable la unidad que estás impartiendo actualmente
-- Esta selección es obligatoria
+-   Selecciona del desplegable la unidad que estás impartiendo actualmente
+-   Esta selección es obligatoria
 
 #### Evaluación
 
-- Indica a qué evaluación corresponde (Primera, Segunda o Tercera)
-- Este campo es obligatorio
+-   Indica a qué evaluación corresponde (Primera, Segunda o Tercera)
+-   Este campo es obligatorio
 
 #### Último contenido impartido
 
-- Describe brevemente el último tema o contenido trabajado con el grupo
-- Si existe un seguimiento anterior, verás como referencia lo que indicaste previamente
-- Este campo es obligatorio
+-   Describe brevemente el último tema o contenido trabajado con el grupo
+-   Si existe un seguimiento anterior, verás como referencia lo que indicaste previamente
+-   Este campo es obligatorio
 
 ### 3. Estado de la Programación
 
@@ -152,15 +152,15 @@ Aquí indicas cómo avanza la programación respecto a lo previsto:
 
 #### Estado actual
 
-- **Al día**: La programación se sigue según lo planeado
-- **Atrasado**: Hay retraso respecto a la programación inicial
-- **Adelantado**: Se ha avanzado más de lo previsto inicialmente
+-   **Al día**: La programación se sigue según lo planeado
+-   **Atrasado**: Hay retraso respecto a la programación inicial
+-   **Adelantado**: Se ha avanzado más de lo previsto inicialmente
 
 #### Justificación del estado actual
 
-- Este campo aparece automáticamente si seleccionas "Atrasado" o "Adelantado"
-- Debes explicar los motivos por los que existe esta desviación
-- Es un campo obligatorio cuando el estado no es "Al día"
+-   Este campo aparece automáticamente si seleccionas "Atrasado" o "Adelantado"
+-   Debes explicar los motivos por los que existe esta desviación
+-   Es un campo obligatorio cuando el estado no es "Al día"
 
 ### 4. Cumplimiento de la Programación
 
@@ -168,8 +168,8 @@ Esta sección documenta si estás siguiendo la programación didáctica aprobada
 
 #### Cumple la programación
 
-- Marca esta casilla si estás siguiendo la programación tal como fue aprobada
-- Por defecto está marcada
+-   Marca esta casilla si estás siguiendo la programación tal como fue aprobada
+-   Por defecto está marcada
 
 #### Si desactivas "Cumple la programación"
 
@@ -179,10 +179,10 @@ Se mostrarán campos adicionales obligatorios:
 
 Debes seleccionar entre:
 
-- Cambio en los Contenidos
-- Cambio en la Secuenciación y distribución temporal de las UTs
-- Cambio en Actividades
-- Cambio en Evaluación
+-   Cambio en los Contenidos
+-   Cambio en la Secuenciación y distribución temporal de las UTs
+-   Cambio en Actividades
+-   Cambio en Evaluación
 
 ##### **Justificación del incumplimiento**:
 
@@ -192,8 +192,8 @@ Campo donde debes explicar detalladamente por qué ha sido necesario modificar l
 
 En la parte inferior del formulario encontrarás:
 
-- **Guardar nuevo seguimiento**: Si es la primera vez que realizas un seguimiento para este mes.
-- **Guardar cambios**: Si estás modificando un seguimiento que ya existe.
+-   **Guardar nuevo seguimiento**: Si es la primera vez que realizas un seguimiento para este mes.
+-   **Guardar cambios**: Si estás modificando un seguimiento que ya existe.
 
 Tras enviar el formulario, un mensaje te informará si el guardado ha sido exitoso o si hay errores que debes corregir.
 
@@ -205,15 +205,15 @@ Al hacer clic en el icono de tabla junto a una docencia en el panel de navegaci�
 
 En la parte superior encontrarás una tarjeta con:
 
-- **Información del Módulo**:
+-   **Información del Módulo**:
 
-  - Nombre del módulo
-  - Ciclo formativo al que pertenece
-  - Año académico actual
-  - Grupo asignado
+    -   Nombre del módulo
+    -   Ciclo formativo al que pertenece
+    -   Año académico actual
+    -   Grupo asignado
 
-- **Listado de Unidades de Trabajo**:
-  - Todas las UTs del módulo numeradas y con sus títulos
+-   **Listado de Unidades de Trabajo**:
+    -   Todas las UTs del módulo numeradas y con sus títulos
 
 ### Tabla de Seguimientos
 
@@ -234,15 +234,15 @@ Esta vista te permite tener una panorámica completa de la evolución de tu doce
 
 ## Consejos Útiles
 
-- **Actualización mensual**: Completa los seguimientos mensualmente para mantener al día la documentación del departamento.
+-   **Actualización mensual**: Completa los seguimientos mensualmente para mantener al día la documentación del departamento.
 
-- **Detalle en justificaciones**: Sé específico en las justificaciones para documentar adecuadamente cualquier incidencia o cambio.
+-   **Detalle en justificaciones**: Sé específico en las justificaciones para documentar adecuadamente cualquier incidencia o cambio.
 
-- **Revisión de histórico**: Consulta los seguimientos anteriores antes de crear uno nuevo para mantener la coherencia.
+-   **Revisión de histórico**: Consulta los seguimientos anteriores antes de crear uno nuevo para mantener la coherencia.
 
-- **Planificación**: Utiliza la vista de tabla para tener una perspectiva global de todos tus seguimientos a lo largo del curso.
+-   **Planificación**: Utiliza la vista de tabla para tener una perspectiva global de todos tus seguimientos a lo largo del curso.
 
-- **Búsqueda eficiente**: Si tienes muchas docencias asignadas, utiliza el buscador para encontrar rápidamente un módulo o grupo específico.
+-   **Búsqueda eficiente**: Si tienes muchas docencias asignadas, utiliza el buscador para encontrar rápidamente un módulo o grupo específico.
 
 ## Preguntas Frecuentes
 

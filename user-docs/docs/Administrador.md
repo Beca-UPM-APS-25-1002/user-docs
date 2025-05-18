@@ -25,15 +25,15 @@ Tendrá que [acceder](Profesor.md#acceso) con una cuenta administrativa a la dir
 4.  **Envío de Recordatorios:** Una vez que haya seleccionado a los profesores deseados, haga clic en el botón "Enviar [Número] recordatorios". El número que aparece en el botón se actualizará dinámicamente según la cantidad de profesores que haya seleccionado.
 
 5.  **Confirmación y Errores:**
-    - **Éxito:** Si el envío de los correos electrónicos de recordatorio se realiza correctamente, aparecerá un mensaje de confirmación en la parte superior de la pantalla indicando el número de correos electrónicos que han sido enviados, deberían aparecer tantos como profesores distintos ha seleccionado.
-    - **Error:** Si ocurre algún error durante el proceso de envío, se mostrará un mensaje de error en la parte superior de la pantalla indicando la naturaleza del problema.
+    -   **Éxito:** Si el envío de los correos electrónicos de recordatorio se realiza correctamente, aparecerá un mensaje de confirmación en la parte superior de la pantalla indicando el número de correos electrónicos que han sido enviados, deberían aparecer tantos como profesores distintos ha seleccionado.
+    -   **Error:** Si ocurre algún error durante el proceso de envío, se mostrará un mensaje de error en la parte superior de la pantalla indicando la naturaleza del problema.
 
 ### Consideraciones Importantes
 
-- El sistema solo mostrará los seguimientos pendientes de profesores que estén marcados como "activos" en el sistema.
-- Los profesores inactivos no podrán ser seleccionados para el envío de recordatorios.
-- Asegúrese de seleccionar el mes correcto antes de enviar los recordatorios.
-- Verifique la lista de profesores seleccionados antes de proceder con el envío.
+-   El sistema solo mostrará los seguimientos pendientes de profesores que estén marcados como "activos" en el sistema.
+-   Los profesores inactivos no podrán ser seleccionados para el envío de recordatorios.
+-   Asegúrese de seleccionar el mes correcto antes de enviar los recordatorios.
+-   Verifique la lista de profesores seleccionados antes de proceder con el envío.
 
 ## Acceso a la interfaz administrativa
 
@@ -46,7 +46,7 @@ Puede acceder a la interfaz administrativa a través de la aplicación web, dán
 
 ### Crear año académico
 
-> Si ya existen años académicos es recomendia clonar el anterior [cómo se indica aquí](#clonar-año-académico)
+> Si ya existen años académicos es recomendia clonar el anterior cómo se indica a continuación.
 
 1. Ir a "Años Académicos" en el panel de administración
 2. Hacer clic en "Añadir Año Académico"
@@ -60,9 +60,9 @@ Esta función permite copiar la estructura de un año académico previo:
 
 1. En la lista de años académicos, localice el botón "Clonar" junto al año que desea replicar
 2. Seleccione una de las opciones:
-   - **Ciclos**: Solo clona la estructura de ciclos formativos
-   - **Módulos**: Clona ciclos, módulos y unidades de trabajo
-   - **Docencias**: Clona ciclos, módulos, unidades de trabajo y asignaciones docentes
+    - **Ciclos**: Solo clona la estructura de ciclos formativos
+    - **Módulos**: Clona ciclos, módulos y unidades de trabajo
+    - **Docencias**: Clona ciclos, módulos, unidades de trabajo y asignaciones docentes
 3. Introduzca el nuevo año académico y confirme
 
 ## Gestión de ciclos, módulos y grupos
@@ -71,28 +71,28 @@ Esta función permite copiar la estructura de un año académico previo:
 
 1. Acceda a "Ciclos" en el panel de administración
 2. Para añadir un ciclo, haga clic en "Añadir Ciclo" e introduzca:
-   - Nombre del ciclo (ej. "Desarrollo de Aplicaciones Web")
-   - Año académico al que pertenece
+    - Nombre del ciclo (ej. "Desarrollo de Aplicaciones Web")
+    - Año académico al que pertenece
 3. Desde la pantalla de edición, puede añadir grupos y módulos mediante los formularios integrados
 
 ### Módulos
 
 1. Acceda a "Módulos" en el panel de administración
 2. Al crear un módulo, debe especificar:
-   - Nombre del módulo
-   - Curso al que pertenece (1º, 2º, etc.)
-   - Ciclo formativo asociado
+    - Nombre del módulo
+    - Curso al que pertenece (1º, 2º, etc.)
+    - Ciclo formativo asociado
 3. Dentro de cada módulo puede añadir:
-   - Unidades de trabajo mediante la sección "Unidades de Trabajo"
-   - Docencias (asignaciones profesor-grupo) mediante la sección "Docencias"
+    - Unidades de trabajo mediante la sección "Unidades de Trabajo"
+    - Docencias (asignaciones profesor-grupo) mediante la sección "Docencias"
 
 ### Grupos
 
 1. Acceda a "Grupos" en el panel de administración
 2. Para cada grupo, deberá indicar:
-   - Nombre del grupo (ej. "DAW1M")
-   - Ciclo formativo al que pertenece
-   - Curso (1º, 2º, etc.)
+    - Nombre del grupo (ej. "DAW1M")
+    - Ciclo formativo al que pertenece
+    - Curso (1º, 2º, etc.)
 
 ### Unidades de trabajo
 
@@ -100,18 +100,18 @@ Las unidades de trabajo se gestionan desde dentro de cada módulo:
 
 1. Edite un módulo existente
 2. En la sección "Unidades de Trabajo", añada cada unidad indicando:
-   - Número de tema
-   - Título de la unidad
+    - Número de tema
+    - Título de la unidad
 
 ## Gestión de profesores
 
 1. Acceda a "Profesores" en el panel de administración
 2. Al crear un profesor, deberá indicar:
-   - Email (será el nombre de usuario para acceso)
-   - Contraseña
-   - Nombre completo
-   - Estado (activo/inactivo)
-   - Permisos de administración (mediante el toggle "Es Administrador")
+    - Email (será el nombre de usuario para acceso)
+    - Contraseña
+    - Nombre completo
+    - Estado (activo/inactivo)
+    - Permisos de administración (mediante el toggle "Es Administrador")
 
 Los profesores inactivos no recibirán emails de recordatorio por falta de seguimiento.
 
@@ -123,9 +123,9 @@ Las docencias establecen la relación entre profesores, módulos y grupos:
 
 1. Se pueden gestionar desde la pantalla de edición de un módulo
 2. Para cada docencia se debe especificar:
-   - Profesor asignado
-   - Grupo
-   - Módulo (predeterminado al modulo que se está editando)
+    - Profesor asignado
+    - Grupo
+    - Módulo (predeterminado al modulo que se está editando)
 
 ## Gestión de seguimientos
 
@@ -134,16 +134,16 @@ Las docencias establecen la relación entre profesores, módulos y grupos:
 1. Acceda a "Seguimientos" en el panel de administración
 2. Haga clic en "Añadir Seguimiento"
 3. Complete el formulario:
-   - **Docencia**: Seleccione la combinación profesor-módulo-grupo
-   - **Mes**: Seleccione el mes del seguimiento
-   - **Temario actual**: Seleccione la unidad en la que se encuentra actualmente
-   - **Evaluación**: Indique la evaluación correspondiente (Primera, Segunda o Tercera)
-   - **Último contenido impartido**: Describa brevemente el contenido más reciente
-   - **Estado**: Seleccione si está Atrasado, Al día o Adelantado
-   - **Justificación**: Obligatoria si el estado no es "Al día"
-   - **Cumple programación**: Indique si cumple con la programación didáctica
-   - **Justificación**: Obligatoria si no cumple la programación
-   - **Motivo**: Seleccione el motivo si no cumple la programación
+    - **Docencia**: Seleccione la combinación profesor-módulo-grupo
+    - **Mes**: Seleccione el mes del seguimiento
+    - **Temario actual**: Seleccione la unidad en la que se encuentra actualmente
+    - **Evaluación**: Indique la evaluación correspondiente (Primera, Segunda o Tercera)
+    - **Último contenido impartido**: Describa brevemente el contenido más reciente
+    - **Estado**: Seleccione si está Atrasado, Al día o Adelantado
+    - **Justificación**: Obligatoria si el estado no es "Al día"
+    - **Cumple programación**: Indique si cumple con la programación didáctica
+    - **Justificación**: Obligatoria si no cumple la programación
+    - **Motivo**: Seleccione el motivo si no cumple la programación
 
 ### Temario completado
 
@@ -184,15 +184,15 @@ El sistema puede enviar recordatorios por email a los profesores:
 
 1. Acceda a "Configuración de Email de Recordatorio"
 2. Personalice:
-   - **Asunto**: Define el asunto del correo (puede incluir variables)
-   - **Contenido**: Defina el cuerpo del mensaje
+    - **Asunto**: Define el asunto del correo (puede incluir variables)
+    - **Contenido**: Defina el cuerpo del mensaje
 
 Las variables disponibles son:
 
-- `{{ nombre_profesor }}`: Nombre del profesor
-- `{{ mes }}`: Nombre del mes del seguimiento
-- `{{ listado_docencias }}`: Lista de docencias pendientes
-- `{{ url_frontend }}`: URL para acceder al sistema
+-   `{{ nombre_profesor }}`: Nombre del profesor
+-   `{{ mes }}`: Nombre del mes del seguimiento
+-   `{{ listado_docencias }}`: Lista de docencias pendientes
+-   `{{ url_frontend }}`: URL para acceder al sistema
 
 Nota: Es obligatorio incluir al menos `{{ mes }}` y `{{ listado_docencias }}` en el contenido.
 
@@ -204,11 +204,11 @@ El sistema necesita tener una conexión a un servidor de email para poder mandar
 
 1. Acceda a "Configuración de Correo"
 2. Configure:
-   1. **Email host**, el servidor que se utilizará para enviar correo electrónico.
-   2. **Email port,** puerto a utilizar para el servidor SMTP.
-   3. **Email host user**, nombre de usuario para el servidor SMTP.
-   4. **Email host password**, contraseña para el servidor SMTP.
-   5. **Email use tls**, si se debe usar una conexión TLS.
-   6. **Email use ssl**, si se debe usar una conexión SSL implícita.
-   7. **Email fail silently**, si los errores deben ser silenciosos al enviar correo.
-   8. **Email timeout**, el tiempo necesario de espera antes de abortar la operación de espera de envío (no debería necesitar ser modificado)
+    1. **Email host**, el servidor que se utilizará para enviar correo electrónico.
+    2. **Email port,** puerto a utilizar para el servidor SMTP.
+    3. **Email host user**, nombre de usuario para el servidor SMTP.
+    4. **Email host password**, contraseña para el servidor SMTP.
+    5. **Email use tls**, si se debe usar una conexión TLS.
+    6. **Email use ssl**, si se debe usar una conexión SSL implícita.
+    7. **Email fail silently**, si los errores deben ser silenciosos al enviar correo.
+    8. **Email timeout**, el tiempo necesario de espera antes de abortar la operación de espera de envío (no debería necesitar ser modificado)
