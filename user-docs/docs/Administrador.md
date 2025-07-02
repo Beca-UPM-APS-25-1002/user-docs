@@ -73,7 +73,9 @@ Esta función permite copiar la estructura de un año académico previo:
 2. Para añadir un ciclo, haga clic en "Añadir Ciclo" e introduzca:
     - Nombre del ciclo (ej. "Desarrollo de Aplicaciones Web")
     - Año académico al que pertenece
-3. Desde la pantalla de edición, puede añadir grupos y módulos mediante los formularios integrados
+3. Desde la pantalla de edición, puede añadir grupos y módulos mediante los formularios integrados.
+
+> ¡Cuidado! Los módulos no pueden existir de manera correcta sin una unidad de trabajo, cúando crees un módulo, añade su temario.
 
 ### Módulos
 
@@ -83,8 +85,11 @@ Esta función permite copiar la estructura de un año académico previo:
     - Curso al que pertenece (1º, 2º, etc.)
     - Ciclo formativo asociado
 3. Dentro de cada módulo puede añadir:
+
     - Unidades de trabajo mediante la sección "Unidades de Trabajo"
     - Docencias (asignaciones profesor-grupo) mediante la sección "Docencias"
+
+    > ¡Cuidado! Los módulos no pueden existir de manera correcta sin una unidad de trabajo, cúando crees un módulo, añade su temario.
 
 ### Grupos
 
