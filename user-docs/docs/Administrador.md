@@ -177,6 +177,9 @@ Nota: Por defecto se aplica un filtro por el año actual, este filtro puede camb
 4. Elija el formato de exportación (Excel, CSV, etc.)
 5. Pulse "Enviar"
 
+> De la misma manera, puede exportar desde la pestaña Módulos
+> una tabla con Año, Ciclo, Módulo y Unidades de Trabajo
+
 ### Generar PDF
 
 1. Desde la pantalla de seguimientos, seleccione los registros que desea incluir mediante los botones de selección de la tabla.
